@@ -111,3 +111,29 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+## set the GPIO pins to out 
+
+gpio mode 7 out 
+gpio write 7 1 
+
+gpio mode 16 out 
+gpio write 16 1
+
+gpio mode 15 out
+gpio write 15 1
+
+gpio mode 8 out
+gpio write 8 1
+
+gpio mode 0 out
+gpio write 0 1
+
+gpio mode 2 out 
+gpio write 2 1
+
+gpio mode 9 out
+gpio write 9 1
+
+gpio mode 3 out
+gpio write 3 1

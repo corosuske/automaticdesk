@@ -1,4 +1,4 @@
-
+\
 # automaticdesk
 
 ## Hardware 
@@ -18,6 +18,6 @@
 
 ## software 
 ### required packages
-apache2
-wiringpi
-
+* apache2
+* wiringpi
+* git
