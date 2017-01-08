@@ -12,6 +12,6 @@ else
   gpio write 7 1
   sleep 1
   gpio write 8 1
-  sleep
+  sleep 1
   gpio write 15 1
 fi
